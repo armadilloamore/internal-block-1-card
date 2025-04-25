@@ -22,13 +22,13 @@ button {
 }
 
 .card img {
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3); /* Mystical glow */
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6); /* Mystical glow */
 }
 
-.card h3 {
+.card h2 {
     text-align: center;
     margin-top: 0.5rem;
     font-weight: bold;

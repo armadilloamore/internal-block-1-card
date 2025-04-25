@@ -14,7 +14,7 @@ function drawCard() {
     const card = majorArcana[index];
 
     document.getElementById("card").innerHTML = `
-    <p>You drew:</p>
+    <p style="margin-top: 30px;">You drew:</p>
     <div class="card-container">
       <div class="card">
         <img src="${getCardImage(card)}" alt="${card}" />

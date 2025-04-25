@@ -27,6 +27,6 @@ function drawCard() {
         .then(res => res.json())
         .then(data => {
             const interpretation = data[card] || "<p>Interpretation coming soon...</p>";
-            document.getElementById("interpretation").innerHTML = interpretation;
+            document.getElementById("interpretationText").innerHTML = interpretation;
         });
 }

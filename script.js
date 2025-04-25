@@ -18,7 +18,7 @@ function drawCard() {
     <div class="card-container">
       <div class="card">
         <img src="${getCardImage(card)}" alt="${card}" />
-        <h3>${card}</h3>
+        <h2>${card}</h2>
       </div>
     </div>
   `;
